@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./design.css">
+</head>
+<style>
+    .form1
+    {
+       
+        
+        text-align: center;
+        margin: 10%;
+        
+    }
+    .form2
+    {
+        text-align: center;
+        margin-top: 10%;
+        font-size: xx-large;
+    }
+    .Style{
+        color: azure;
+    }
+    
+    .Style:hover
+    {
+    size: 20px;
+    color:greenyellow;
+    }
+
+    .image{
+        background-image: url(./wow.png);
+    }
+    .box{
+        padding: 12px;
+    max-width: 203px;
+    margin-bottom: 10px;
+    }
+    .button{
+        color: aliceblue;
+        font-size: xx-large;
+        background-color: blue;
+    }
+    .button:hover{
+        background-color:green ;
+        
+        
+    }
+
+</style>
+<body class="image" >
+    <div class="header">
+        <div >
+           
+            <h1> <i class="fas fa-cog"></i> Mana Laundry</h1>
+        </div>
+        
+            <ul class="align">
+                <li><a href="website.html" class="Style"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="aboutus.html" class="Style"><i class="fas fa-user"></i> Why Us</a></li>
+                <li><a href="contactus.html" class="Style"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </ul>
+    </div>
+
+    <form  class="form1">
+        <div>
+          
+
+                <input class="box" type="text" placeholder="Your Name" accept="text">
+                <br>
+                <input class="box" type="text" placeholder="Your Email" accept="email">
+                <br>
+                <input class="box" type="text" placeholder="Your Phone" accept="Phone">
+                <br>
+                <input class="box" type="date" placeholder="Appointment Date">
+                <br>
+                <select class="box">
+                    <option value="">Select Branch</option>
+                    <option value="">Bangalore </option>
+                    <option value="">Chennai</option>
+                    <option value="">Hydrabad</option>
+                    <option value="">Delhi</option>
+                    <option value="">Mumbai</option>
+                </select>
+                <br>
+                <select class="box">
+                    <option value="">Select Service</option>
+                    <option value="">Dry Cleaning</option>
+                    <option value="">rinsing</option>
+                    <option value="">drying</option>
+                    <option value="">pressing</option>
+                    <option value="">folding</option>
+                </select>
+                <br>
+                <textarea class="box" cols="30" rows="5" placeholder="Feedback (Optional)"></textarea>
+                <br>
+                <li><a href="Submited.html" class="button" title="Click here for Payment"> Make An Appointment </a></li>
+            </div>
+        
+    </form>
+</body>
+</html>
