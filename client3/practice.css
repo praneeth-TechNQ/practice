@@ -1,0 +1,24 @@
+.dv
+{
+        width: 100px;
+        height: 100px;
+        background: black;
+        position: relative;
+        animation: mymove 5s infinite;
+}
+      
+      
+      @keyframes mymove
+     {
+        0%   {top: 0px; background: yellow; width: 300px;}
+        25%  {top: 200px; background: red; width: 400px;}
+        75%  {top: 50px;background: blueviolet; width: 600px;}
+        100% {top: 100px; background: tomato;width: 900px;}
+      }
+
+      img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index:-1;
+      }
